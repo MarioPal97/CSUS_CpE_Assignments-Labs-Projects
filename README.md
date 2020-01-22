@@ -1,2 +1,2 @@
-# CSUS_CpE_Assignments-Labs-Projects
-Welcome to my Repository.
+# CSC 20. Programming Concepts and Methodology II
+*Prerequisite(s): CSC 15.*
