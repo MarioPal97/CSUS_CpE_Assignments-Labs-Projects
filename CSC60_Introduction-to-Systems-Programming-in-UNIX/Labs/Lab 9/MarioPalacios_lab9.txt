@@ -1,0 +1,36 @@
+Script started on Tue 19 Nov 2019 06:31:54 PM PST
+[palacim@athena:21]> gcc lab9.c =Wall[K[K[K[K[K-Wall
+[palacim@athena:22]> cat authr[Kors
+
+Authors: 
+Mario Palacios and Trevor Davis 
+
+[palacim@athena:23]> lab9.out
+csc60msh> 
+csc60msh>  
+csc60msh> pwd
+Argv 0 = pwd
+/gaia/class/student/palacim/csc60/lab9
+csc60msh> cd ..
+Argv 0 = cd
+Argv 1 = ..
+csc60msh> pwd
+Argv 0 = pwd
+/gaia/class/student/palacim/csc60
+csc60msh> cd lab9
+Argv 0 = cd
+Argv 1 = lab9
+csc60msh> pwd
+Argv 0 = pwd
+/gaia/class/student/palacim/csc60/lab9
+csc60msh> cd
+Argv 0 = cd
+csc60msh> pwd
+Argv 0 = pwd
+/gaia/class/student/palacim
+csc60msh> exit
+Argv 0 = exit
+[palacim@athena:24]> exit
+exit
+
+Script done on Tue 19 Nov 2019 06:32:52 PM PST

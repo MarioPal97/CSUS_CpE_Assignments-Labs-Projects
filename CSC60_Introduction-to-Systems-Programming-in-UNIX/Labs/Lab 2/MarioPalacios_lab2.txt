@@ -1,0 +1,211 @@
+Script started on Wed 18 Sep 2019 10:27:53 AM PDT
+[palacim@sp2:21]> history -c
+[palacim@sp2:22]> cd csc60
+[palacim@sp2:23]> mkdir lab2
+[palacim@sp2:24]> cd lab2
+[palacim@sp2:25]> pwd
+/gaia/class/student/palacim/csc60/lab2
+[palacim@sp2:26]> mkdir aaa
+[palacim@sp2:27]> cd aaa
+[palacim@sp2:28]> pwd
+/gaia/class/student/palacim/csc60/lab2/aaa
+[palacim@sp2:29]> cd lab2
+~/csc60/lab2 
+[palacim@sp2:30]> pwd
+/gaia/class/student/palacim/csc60/lab2
+[palacim@sp2:31]> ls > file1
+[palacim@sp2:32]> cat file1
+aaa/
+file1
+[palacim@sp2:33]> les s file1
+[?1049h[?1h=aaa/
+file1
+[7mfile1 (END) [27m[K[K[?1l>[?1049l[palacim@sp2:34]> file *
+aaa:   setgid directory
+file1: ASCII text
+[palacim@sp2:35]> wc file1
+ 2  2 11 file1
+[palacim@sp2:36]> wc *
+wc: aaa: Is a directory
+      0       0       0 aaa
+      2       2      11 file1
+      2       2      11 total
+[palacim@sp2:37]> grep lab file2
+grep: file2: No such file or directory
+[palacim@sp2:38]> grep lab file1
+[palacim@sp2:39]> cp file1 file2
+[palacim@sp2:40]> ls
+aaa/  file1  file2
+[palacim@sp2:41]> cd aaa
+[palacim@sp2:42]> cp ..,[K/filw[Ke .
+cp: cannot stat `../file': No such file or directory
+[palacim@sp2:43]> cp ][K[K[Kcp ../file1 .
+[palacim@sp2:44]> ls
+file1
+[palacim@sp2:45]> mv file 1 file2
+[palacim@sp2:46]> ls
+file2
+[palacim@sp2:47]> mv ../file1 . 
+[palacim@sp2:48]> cd lab2[K[K[K[K ..
+[palacim@sp2:49]> ls
+aaa/  file2
+[palacim@sp2:50]> cd aaa
+[palacim@sp2:51]> ls
+file1  file2
+[palacim@sp2:52]> cmp file1 file 1[K2
+[palacim@sp2:53]> ls > aaalist
+[palacim@sp2:54]> cmp file1 aaalist
+file1 aaalist differ: byte 4, line 1
+[palacim@sp2:55]> diff file1 aaalist
+1c1
+< aaa/
+---
+> aaalist
+2a3
+> file2
+[palacim@sp2:56]> rm file1
+[palacim@sp2:57]> ls
+aaalist  file2
+[palacim@sp2:58]> ps u
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+palacim  17881  0.0  0.0 116752  2028 pts/3    Ss   10:27   0:00 -csh
+palacim  17921  0.0  0.0 107132   832 pts/3    S+   10:27   0:00 script Mario
+palacim  17923  0.0  0.0 107644   400 pts/3    S+   10:27   0:00 script Mario
+palacim  17924  0.0  0.0 110380  1800 pts/5    Ss   10:27   0:00 -sh -i
+palacim  18473  0.0  0.0 114492  1284 pts/5    R+   10:37   0:00 ps u
+[palacim@sp2:59]> ps -1[Kl
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  8543 17924 17923  0  80   0 - 27595 sys_rt pts/5    00:00:00 csh
+0 R  8543 18893 17924  0  80   0 - 27037 -      pts/5    00:00:00 ps
+[palacim@sp2:60]> !!
+ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  8543 17924 17923  0  80   0 - 27595 sys_rt pts/5    00:00:00 csh
+0 R  8543 18894 17924  0  80   0 - 27036 -      pts/5    00:00:00 ps
+[palacim@sp2:61]> history
+    22	10:28	cd csc60
+    23	10:29	mkdir lab2
+    26	10:29	mkdir aaa
+    29	10:29	cd lab2
+    30	10:29	pwd
+    31	10:30	ls > file1
+    32	10:30	cat file1
+    33	10:31	less file1
+    34	10:31	file *
+    35	10:31	wc file1
+    36	10:31	wc *
+    37	10:31	grep lab file2
+    38	10:31	grep lab file1
+    39	10:32	cp file1 file2
+    42	10:33	cp ../file .
+    43	10:33	cp ../file1 .
+    45	10:34	mv file1 file2
+    47	10:34	mv ../file1 .
+    48	10:34	cd ..
+    50	10:35	cd aaa
+    52	10:35	cmp file1 file2
+    53	10:35	ls > aaalist
+    54	10:35	cmp file1 aaalist
+    55	10:36	diff file1 aaalist
+    56	10:36	rm file1
+    57	10:37	ls
+    58	10:37	ps u
+    60	10:48	ps -l
+    61	10:48	history
+[palacim@sp2:62]> cd ../ ..
+cd: Too many arguments.
+[palacim@sp2:63]> cd lab2/ v[Kcsc60
+cd: Too many arguments.
+[palacim@sp2:64]> cd lab2
+~/csc60/lab2 
+[palacim@sp2:65]> cd csc60
+~/csc60 
+[palacim@sp2:66]> pwd
+/gaia/class/student/palacim/csc60
+[palacim@sp2:67]> cd lab1
+[palacim@sp2:68]> ls
+a.out*	lab1.c	MarioPalacios_lab1.txt
+[palacim@sp2:69]> heq[Kaf [Kd -20 lab1.c
+/*--------------*/
+/*Mario Palacios*/
+/*Lab1          */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main (void) 
+{ 
+        printf ("\nLab 1. \n\n");
+        printf ("Hello World.\n");
+        printf ("Hi, Mario Palacios.\n\n");
+        printf ("With Great Power, Comes Great Responsibility.\n");
+        printf ("- Spiderman\n\n");
+
+        return EXIT_SUCCESS;
+}
+/*-------------*/
+[palacim@sp2:70]> q
+q: Command not found.
+[palacim@sp2:71]> tail lab1.c
+{ 
+        printf ("\nLab 1. \n\n");
+        printf ("Hello World.\n");
+        printf ("Hi, Mario Palacios.\n\n");
+        printf ("With Great Power, Comes Great Responsibility.\n");
+        printf ("- Spiderman\n\n");
+
+        return EXIT_SUCCESS;
+}
+/*-------------*/
+[palacim@sp2:72]> q
+q: Command not found.
+[palacim@sp2:73]> ls -al | less
+[?1049h[?1h=total 24
+drwx--S--- 2 palacim@ecs.csus.edu stdcpe 4096 Sep 12 12:15 ./
+drwx--S--- 4 palacim@ecs.csus.edu stdcpe 4096 Sep 18 10:29 ../
+-rwx------ 1 palacim@ecs.csus.edu stdcpe 4782 Sep 12 12:15 a.out*
+-rw------- 1 palacim@ecs.csus.edu stdcpe  385 Sep 12 12:13 lab1.c
+-rw------- 1 palacim@ecs.csus.edu stdcpe  312 Sep 12 12:15 MarioPalacios_lab1 .txt
+[7m(END) [27m[K[K[?1l>[?1049l[palacim@sp2:74]> history
+    23	10:29	mkdir lab2
+    26	10:29	mkdir aaa
+    31	10:30	ls > file1
+    32	10:30	cat file1
+    33	10:31	less file1
+    34	10:31	file *
+    35	10:31	wc file1
+    36	10:31	wc *
+    37	10:31	grep lab file2
+    38	10:31	grep lab file1
+    39	10:32	cp file1 file2
+    42	10:33	cp ../file .
+    43	10:33	cp ../file1 .
+    45	10:34	mv file1 file2
+    47	10:34	mv ../file1 .
+    48	10:34	cd ..
+    50	10:35	cd aaa
+    52	10:35	cmp file1 file2
+    53	10:35	ls > aaalist
+    54	10:35	cmp file1 aaalist
+    55	10:36	diff file1 aaalist
+    56	10:36	rm file1
+    58	10:37	ps u
+    60	10:48	ps -l
+    62	10:49	cd ../ ..
+    63	10:49	cd lab2/ csc60
+    64	10:49	cd lab2
+    65	10:49	cd csc60
+    66	10:50	pwd
+    67	10:53	cd lab1
+    68	10:53	ls
+    69	10:53	head -20 lab1.c
+    71	10:54	tail lab1.c
+    72	10:54	q
+    73	10:54	ls -al | less
+    74	10:55	history
+[palacim@sp2:75]> q
+q: Command not found.
+[palacim@sp2:76]> exit
+exit
+
+Script done on Wed 18 Sep 2019 10:55:56 AM PDT

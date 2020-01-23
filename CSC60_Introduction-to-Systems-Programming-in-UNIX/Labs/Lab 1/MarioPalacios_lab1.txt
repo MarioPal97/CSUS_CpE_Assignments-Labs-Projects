@@ -1,0 +1,16 @@
+Script started on Thu 12 Sep 2019 12:15:33 PM PDT
+[palacim@athena:21]> gcc lab1.cc[K
+[palacim@athena:22]> a.out
+
+Lab 1. 
+
+Hello World.
+Hi, Mario Palacios.
+
+With Great Power, Comes Great Responsibility.
+- Spiderman
+
+[palacim@athena:23]> exit
+exit
+
+Script done on Thu 12 Sep 2019 12:15:49 PM PDT
