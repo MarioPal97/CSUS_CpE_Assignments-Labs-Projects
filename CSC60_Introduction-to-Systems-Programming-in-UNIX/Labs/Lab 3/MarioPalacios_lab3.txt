@@ -1,0 +1,23 @@
+Script started on Sat 28 Sep 2019 11:17:50 PM PDT
+[palacim@athena:21]> gcc lab3.c
+[palacim@athena:22]> a.out
+
+Mario Palacios. Lab 3.
+
+Jane went to the store
+
+My friend is 22 years old.
+
+"With great power, comes great responsibility"
+- SpiderMan
+
+The average = 246.2
+
+The average = 246.237
+
+The average = 2.46e+02
+
+[palacim@athena:23]> exit
+exit
+
+Script done on Sat 28 Sep 2019 11:18:08 PM PDT
