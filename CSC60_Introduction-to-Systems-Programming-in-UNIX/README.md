@@ -1,5 +1,5 @@
 # CSC 60 Introduction to Systems Programming in UNIX
-*Prerequisite(s): CSC 20, CSC 35.*
+## *Prerequisite(s): CSC 20, CSC 35.*
 
 Features of the C language commonly used in systems programming, application to systems 
 programming in a UNIX environment. Topics include C preprocessor macros, I/O, bit-manipulation 
