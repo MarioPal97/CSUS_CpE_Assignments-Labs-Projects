@@ -1,2 +1,2 @@
 # This is HOME
-## Just Chillin'
+## Studying Computer Enginering, this repository shows all the work I have completed and saved. 
