@@ -1,0 +1,2 @@
+## Description
+Design and performance issues of computers. Instruction set architecture, computer arithmetic, processor design, survey of contemporary architectures, interfacing I/O devices, hierarchal memory design and analysis, parallelism and multiprocessing, distributed systems, techniques for enhancing performance, and an introduction to EDA tools for design and verification of computers. Design and simulation of a microcomputer in an HDL. 
