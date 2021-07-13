@@ -1,0 +1,25 @@
+Script started on Tue 04 May 2021 11:06:14 PM PDT
+[palacim@sp2:21]> ./cli $PATH, more -V, sh
+CLI, Mario Palacios, CSC 139 - Section 06
+Legal Commands:  cd exec exit gcc ls man more mv rm pwd sh touch which $PATH
+5 strings passed to argv[]
+next string is '/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/etc:/usr/local/etc:/usr/bin/X11:/opt/bin:/usr/X11R6/bin:/usr/pkg/smlnj/bin:/usr/pkg/syn/bin:/usr/pkg/vcs/bin:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/bin:.,'
+new string is '/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/etc:/usr/local/etc:/usr/bin/X11:/opt/bin:/usr/X11R6/bin:/usr/pkg/smlnj/bin:/usr/pkg/syn/bin:/usr/pkg/vcs/bin:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/bin:., '
+next string is 'more'
+new string is '/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/etc:/usr/local/etc:/usr/bin/X11:/opt/bin:/usr/X11R6/bin:/usr/pkg/smlnj/bin:/usr/pkg/syn/bin:/usr/pkg/vcs/bin:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/bin:., more '
+next string is '-V,'
+new string is '/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/etc:/usr/local/etc:/usr/bin/X11:/opt/bin:/usr/X11R6/bin:/usr/pkg/smlnj/bin:/usr/pkg/syn/bin:/usr/pkg/vcs/bin:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/bin:., more -V, '
+next string is 'sh'
+new string is '/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/etc:/usr/local/etc:/usr/bin/X11:/opt/bin:/usr/X11R6/bin:/usr/pkg/smlnj/bin:/usr/pkg/syn/bin:/usr/pkg/vcs/bin:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/bin:., more -V, sh '
+CMD 'more -V' is one of the predefined.
+more from util-linux 2.23.2
+sh: /bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/etc:/usr/local/etc:/usr/bin/X11:/opt/bin:/usr/X11R6/bin:/usr/pkg/smlnj/bin:/usr/pkg/syn/bin:/usr/pkg/vcs/bin:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64/bin:.: No such file or directory
+more from util-linux 2.23.2
+[?1034hsh-4.2$ exity[K
+exit
+[palacim@sp2:22]> sxit
+sxit: Command not found.
+[palacim@sp2:23]> exit
+exit
+
+Script done on Tue 04 May 2021 11:06:34 PM PDT

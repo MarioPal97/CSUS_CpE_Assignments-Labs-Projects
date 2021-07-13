@@ -1,0 +1,33 @@
+Script started on Tue 04 May 2021 10:49:25 PM PDT
+[palacim@sp2:21]> ./cli rm a.out, ls, gcc cli.c, ls -lt
+CLI, Mario Palacios, CSC 139 - Section 06
+Legal Commands:  cd exec exit gcc ls man more mv rm pwd sh touch which $PATH
+8 strings passed to argv[]
+next string is 'rm'
+new string is 'rm '
+next string is 'a.out,'
+new string is 'rm a.out, '
+next string is 'ls,'
+new string is 'rm a.out, ls, '
+next string is 'gcc'
+new string is 'rm a.out, ls, gcc '
+next string is 'cli.c,'
+new string is 'rm a.out, ls, gcc cli.c, '
+next string is 'ls'
+new string is 'rm a.out, ls, gcc cli.c, ls '
+next string is '-lt'
+new string is 'rm a.out, ls, gcc cli.c, ls -lt '
+CMD 'ls' is one of the predefined.
+a.out  cli  cli.c  filler.txt  test1.txt  test2.txt
+cli  cli.c  filler.txt	test1.txt  test2.txt
+total 36
+-rwx------ 1 palacim stdcpe 9176 May  4 22:49 a.out
+-rw------- 1 palacim stdcpe    0 May  4 22:49 test2.txt
+-rwx------ 1 palacim stdcpe 9176 May  4 22:49 cli
+-rw------- 1 palacim stdcpe 2574 May  4 22:48 cli.c
+-rw------- 1 palacim stdcpe  939 May  4 22:42 test1.txt
+-rw------- 1 palacim stdcpe    4 May  4 00:03 filler.txt
+[palacim@sp2:22]> exit
+exit
+
+Script done on Tue 04 May 2021 10:49:50 PM PDT

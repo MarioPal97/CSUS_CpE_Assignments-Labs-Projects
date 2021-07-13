@@ -1,0 +1,24 @@
+Script started on Tue 04 May 2021 11:09:52 PM PDT
+[palacim@sp2:21]> ./cli touch example.txt, mv example.txt file2.txt, ls
+CLI, Mario Palacios, CSC 139 - Section 06
+Legal Commands:  cd exec exit gcc ls man more mv rm pwd sh touch which $PATH
+7 strings passed to argv[]
+next string is 'touch'
+new string is 'touch '
+next string is 'example.txt,'
+new string is 'touch example.txt, '
+next string is 'mv'
+new string is 'touch example.txt, mv '
+next string is 'example.txt'
+new string is 'touch example.txt, mv example.txt '
+next string is 'file2.txt,'
+new string is 'touch example.txt, mv example.txt file2.txt, '
+next string is 'ls'
+new string is 'touch example.txt, mv example.txt file2.txt, ls '
+CMD 'mv example.txt file2.txt' is one of the predefined.
+mv: cannot stat ‘example.txt’: No such file or directory
+a.out  cli  cli.c  file2.txt  filler.txt  test1.txt  test2.txt	test3.txt  test4.txt
+[palacim@sp2:22]> exit
+exit
+
+Script done on Tue 04 May 2021 11:10:19 PM PDT
