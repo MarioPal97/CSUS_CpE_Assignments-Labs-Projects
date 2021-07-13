@@ -1,0 +1,27 @@
+Script started on Tue 04 May 2021 10:42:04 PM PDT
+[palacim@sp2:21]> ./cli ls -l, cd ..m,[K[K, pwd
+CLI, Mario Palacios, CSC 139 - Section 06
+Legal Commands:  cd exec exit gcc ls man more mv rm pwd sh touch which $PATH
+6 strings passed to argv[]
+next string is 'ls'
+new string is 'ls '
+next string is '-l,'
+new string is 'ls -l, '
+next string is 'cd'
+new string is 'ls -l, cd '
+next string is '..,'
+new string is 'ls -l, cd .., '
+next string is 'pwd'
+new string is 'ls -l, cd .., pwd '
+CMD 'cd ..' is one of the predefined.
+total 32
+-rwx------ 1 palacim stdcpe 9176 May  4 22:35 a.out
+-rwx------ 1 palacim stdcpe 9176 May  4 22:41 cli
+-rw------- 1 palacim stdcpe 2600 May  4 22:41 cli.c
+-rw------- 1 palacim stdcpe    4 May  4 00:03 filler.txt
+-rw------- 1 palacim stdcpe    0 May  4 22:42 test1.txt
+/gaia/class/student/palacim/csc139
+[palacim@sp2:22]> exit
+exit
+
+Script done on Tue 04 May 2021 10:42:23 PM PDT
